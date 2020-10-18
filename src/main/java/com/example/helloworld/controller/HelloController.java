@@ -10,4 +10,10 @@ public class HelloController {
     public String getName(){
         return "";
     }
+
+    @GetMapping("/getCity")
+    public String getCity(){
+        return "";
+    }
+
 }
